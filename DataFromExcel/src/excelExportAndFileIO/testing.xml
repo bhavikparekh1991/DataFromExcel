@@ -1,0 +1,25 @@
+<suite name="online_test">
+
+<test name="test">
+<groups>
+<run>
+<include name="A"/>
+</run>
+</groups>	    
+<classes>
+<class name="excelExportAndFileIO.Dataprovider"/>
+</classes>
+</test>
+
+<test name="test1">
+<groups>
+<run>
+<include name="B"/>
+</run>
+</groups>	    
+<classes>
+<class name="excelExportAndFileIO.Dataprovider"/>
+</classes>
+</test>
+
+</suite>

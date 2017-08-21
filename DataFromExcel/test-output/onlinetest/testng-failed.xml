@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [onlinetest]">
+  <test name="test(failed)">
+    <classes>
+      <class name="excelExportAndFileIO.TestNG">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- excelExportAndFileIO.TestNG -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [onlinetest] -->
