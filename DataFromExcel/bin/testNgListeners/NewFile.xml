@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite-Listeners" parallel="none">
+ 
+ <listeners>
+ 
+ <listener class-name="testNgListeners.Listener"></listener>
+ 
+ </listeners>
+ 
+ <test name="Batch-Listeners">
+ 
+ <classes>
+ 
+ <class name="testNgListeners.TestListener" />
+ 
+ </classes>
+ 
+ </test> 
+ 
+</suite>
